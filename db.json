@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "1",
+      "name": "Badminton Racket",
+      "description": "Item for Badminton"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "2",
+      "name": "Shuttlecock",
+      "description": "Item for Badminton playing"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "3",
+      "name": "Racket Grip Tape",
+      "description": "Item to create grip for racket"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "Bob",
+      "description": "Bob's comment about the Badminton Racket",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "Kevin's",
+      "description": "Kevin's comment about the Badminton Racket",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "BadmintonEquipment",
+    "name": "Badminton API",
+    "creator": "sd's API",
+    "about": "A collection of Badminton Equipment",
+    "url": "https://www.badmintonstuff.com"
+  }
+}
